@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA6BC61819F8053000AA3995 /* iPhone-Photo-Collages-8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA6BC61719F8053000AA3995 /* iPhone-Photo-Collages-8.jpg */; };
 		FADA81F819F747BC00002AAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADA81F719F747BC00002AAF /* AppDelegate.swift */; };
 		FADA81FA19F747BC00002AAF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADA81F919F747BC00002AAF /* ViewController.swift */; };
 		FADA81FD19F747BC00002AAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FADA81FB19F747BC00002AAF /* Main.storyboard */; };
 		FADA81FF19F747BC00002AAF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FADA81FE19F747BC00002AAF /* Images.xcassets */; };
 		FADA820219F747BC00002AAF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FADA820019F747BC00002AAF /* LaunchScreen.xib */; };
 		FADA820E19F747BD00002AAF /* PostcardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADA820D19F747BD00002AAF /* PostcardTests.swift */; };
+		FADA821819F74E9C00002AAF /* Tilt-Shift-iPhone-Photos-16.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FADA821719F74E9C00002AAF /* Tilt-Shift-iPhone-Photos-16.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FA6BC61719F8053000AA3995 /* iPhone-Photo-Collages-8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "iPhone-Photo-Collages-8.jpg"; sourceTree = "<group>"; };
 		FADA81F219F747BC00002AAF /* Postcard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Postcard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FADA81F619F747BC00002AAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FADA81F719F747BC00002AAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +39,7 @@
 		FADA820719F747BD00002AAF /* PostcardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostcardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FADA820C19F747BD00002AAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FADA820D19F747BD00002AAF /* PostcardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostcardTests.swift; sourceTree = "<group>"; };
+		FADA821719F74E9C00002AAF /* Tilt-Shift-iPhone-Photos-16.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Tilt-Shift-iPhone-Photos-16.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,8 @@
 		FADA81F519F747BC00002AAF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FA6BC61719F8053000AA3995 /* iPhone-Photo-Collages-8.jpg */,
+				FADA821719F74E9C00002AAF /* Tilt-Shift-iPhone-Photos-16.jpg */,
 				FADA81F619F747BC00002AAF /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -192,9 +198,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FADA821819F74E9C00002AAF /* Tilt-Shift-iPhone-Photos-16.jpg in Resources */,
 				FADA81FD19F747BC00002AAF /* Main.storyboard in Resources */,
 				FADA820219F747BC00002AAF /* LaunchScreen.xib in Resources */,
 				FADA81FF19F747BC00002AAF /* Images.xcassets in Resources */,
+				FA6BC61819F8053000AA3995 /* iPhone-Photo-Collages-8.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,6 +415,7 @@
 				FADA821319F747BD00002AAF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FADA821419F747BD00002AAF /* Build configuration list for PBXNativeTarget "PostcardTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +424,7 @@
 				FADA821619F747BD00002AAF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
